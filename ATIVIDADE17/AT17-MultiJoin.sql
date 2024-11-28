@@ -211,3 +211,8 @@ SELECT nome_roupa
 FROM vw_detalhes_pedidos
 WHERE cor_roupa = 'Vermelho';
 
+-- EXERCICIO 06
+SELECT c1.nome AS Categoria,
+c2.nome AS SubCategoria
+FROM tb_categoria c1
+LEFT JOIN tb_categoria c2 ON c1.id_categoria = c2.CATEGORIA_id_categoria_pai
