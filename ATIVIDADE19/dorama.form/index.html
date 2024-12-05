@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="dorama.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Dorama</title>
+</head>
+<body>
+    <form action="enviado.html" method="post">
+    <h2>Inscreva o seu dorama favorito :)</h2>
+
+    <label for = "nome do dorama"> Nome do dorama:</label>
+        <input type="text" name="nome do dorama" id="nome do dorama"
+        required="required" autofocus><br>
+
+        <label>Categoria:</label>
+        <select name="Categoria" required>
+            <option value="">Selecione...</option>
+            <option value="Comedia romantica">Comedia romantica</option>
+            <option value="Drama">Drama</option>
+            <option value="Suspense">Suspense</option>
+            <option value="Terror">Terror</option>
+            <option value="Romance">Romance</option>
+            <option value="Fantasia">Fantasia</option>
+            </select>
+            <label for="Episodios" class="medidas">Episodios:</label>
+            <input type="number" name="Episodios" id="Episodios" class="medidas" required step="0.01"><br>
+
+            <label for = "Emissora"> Emissora:</label>
+        <input type="text" name="Emissora" id="Emissora"
+        required="required" autofocus><br>
+
+        <label>Informações adicionais:</label>
+        <textarea name="informacoes" rows="8" cols="25" maxlength="100" required placeholder=" Escreva aqui informações adicionais que julgar importante."></textarea><br>
+        
+        <p>
+            <input type="submit" value="enviar" id="enviar">
+        </p>
+    
+            
+        </select>
+    
+</body>
+</html>
