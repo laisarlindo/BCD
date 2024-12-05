@@ -16,6 +16,6 @@ nome VARCHAR(45),
 papel VARCHAR(45),
 pontoForte VARCHAR(45),
 DORAMA_id_dorama INT,
-FOREIGN KEY (id_dorama) REFERENCES Dorama(id_dorama)
+FOREIGN KEY (DORAMA_id_dorama) REFERENCES tb_dorama(id_dorama)
 );
 

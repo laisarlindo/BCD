@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="personagens.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro personagem</title>
+</head>
+<body>
+    <form action="enviado.html" method="post">
+        <h2>Inscreva os personagens :)</h2>
+
+        <label for = "nome"> Nome dos atores protagonista:</label>
+        <input type="text" name="nome" id="nome"
+        required="required" autofocus><br>
+
+        <label for = "papel"> Nome dos personagens protagonistas:</label>
+        <input type="text" name="papel" id="papel"
+        required="required" autofocus><br>
+
+        <label for = "pontoForte"> Qual o ponto forte do casal protagonista:</label>
+        <input type="text" name="pontoForte" id="pontoForte"
+        required="required" autofocus><br>
+
+        <label>Informações adicionais:</label>
+        <textarea name="informacoes" rows="8" cols="25" maxlength="100" required placeholder=" Escreva aqui informações adicionais que julgar importante."></textarea><br>
+        
+
+        <p>
+            <input type="submit" value="enviar" id="enviar">
+        </p>
+
+    </form>
+</body>
+</html>
